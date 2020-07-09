@@ -1,1 +1,1 @@
-# practice_react
+# FoodAlert Summerhacks 2020 Project
