@@ -1,8 +1,4 @@
 
-Megan Lau <lau.m.megan@gmail.com>
-12:58 PM (6 hours ago)
-to me
-
 CREATE TABLE menu (
     menu_id INTEGER PRIMARY KEY,
     FOREIGN KEY (store_id) references restaurant (restaurant_id),
