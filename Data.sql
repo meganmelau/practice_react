@@ -1,4 +1,4 @@
-CREATE TABLE restaurant (
+CREATE TABLE restaurants (
     restaurant_id INTEGER PRIMARY KEY, 
     FOREIGN KEY (menu_id) REFERENCES menu (menu_id),
     restaurant_name VARCHAR(25), 
@@ -14,7 +14,7 @@ CREATE TABLE restaurant (
     restaurant_description VARCHAR(100)
 );
 
-INSERT INTO restaurant VALUES(1, "Popeyes", "123 Ct", "Fremont", "CA", "94539", 911, "@gmail.com", "pop.com", "good chicken");
+INSERT INTO restaurants VALUES(1, "Popeyes", "123 Ct", "Fremont", "CA", "94539", 911, "@gmail.com", "pop.com", "good chicken");
 
 CREATE TABLE category (
     category_id INTEGER PRIMARY KEY,

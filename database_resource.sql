@@ -1,7 +1,7 @@
 
 CREATE TABLE menu (
     menu_id INTEGER PRIMARY KEY,
-    FOREIGN KEY (store_id) references restaurant (restaurant_id),
+    FOREIGN KEY (store_id) references restaurants (restaurant_id),
     FOREIGN KEY (food_id) references  food (food_id)
 );
 
